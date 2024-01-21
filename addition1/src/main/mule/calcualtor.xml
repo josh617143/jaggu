@@ -135,6 +135,8 @@ output application/json
             </ee:message>
         </ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="a16a583b-06f8-4861-b323-3eaa30a66b5c" message="#[payload]"/>
+	    <logger level="INFO" doc:name="Logger not added" doc:id="a16a583b-06f8-4861-b323-3eaa30a66b5c" message="#[payload]"/>
+    
     
 </flow>
 </mule>
