@@ -1,0 +1,28 @@
+#%RAML 1.0
+title: Calcualtor
+version: v1
+protocols:
+  - http
+
+/add:
+  get:
+    queryParameters:
+        number1:
+          required: true
+          type: integer
+        number2:
+          required: true
+          type: integer
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "message": "add is 10"
+              }
+                    
+
+
+      
+      
